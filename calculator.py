@@ -23,7 +23,9 @@ def main():
         ans= multiply(x,y)
     elif choice ==4:
         ans= divide(x,y)
-
+    else:
+        print("invalid choice")
+        exit()
     print(ans)
 if __name__ == "__main__":
     main()
