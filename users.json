@@ -1,0 +1,48 @@
+{
+    "users": [
+        {
+            "name": "aayushi",
+            "userId": 1,
+            "email": "aayushi.vaish.2016@gmail.com",
+            "password": "Aayushi123",
+            "age": 23,
+            "degrees": [
+                "PH.D",
+                "MS",
+                "B.Tech"
+            ],
+            "college": "Caltech"
+        },
+        {
+            "name": "prkhrv",
+            "userId": 2,
+            "email": "contact.prkhrv@gmail.com",
+            "password": "Prakhar123",
+            "age": 23,
+            "degrees": [
+                "PH.D",
+                "MS",
+                "B.Tech"
+            ],
+            "college": "Caltech"
+        },
+        {
+            "name": "av",
+            "email": "av@gmail.com",
+            "password": "1234",
+            "age": 23
+        },
+        {
+            "name": "prakhar",
+            "email": "pr@gmail.com",
+            "password": "1234",
+            "age": 23
+        },
+        {
+            "name": "github",
+            "email": "github@gmail.com",
+            "password": "1234",
+            "age": 23
+        }
+    ]
+}
