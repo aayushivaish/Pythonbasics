@@ -1,4 +1,6 @@
 import json
+import uuid
+
 
 f = open('users.json','r+')
 data = json.load(f) 
@@ -57,6 +59,7 @@ def signup(data):
     else:
         temp={
             "name": name,
+            "id": str(uuid.uuid4()),
             "email": email,
             "password": password,
             "age": age

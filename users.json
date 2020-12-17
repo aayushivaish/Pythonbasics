@@ -43,6 +43,13 @@
             "email": "github@gmail.com",
             "password": "1234",
             "age": 23
+        },
+        {
+            "name": "Aunty",
+            "id": "0a0b66e4-91a8-44f6-a6c0-029c445b7d52",
+            "email": "aunty@gmail.com",
+            "password": "1234",
+            "age": 78
         }
     ]
 }
