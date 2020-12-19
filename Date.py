@@ -7,4 +7,3 @@ print(current)
 current_str = current.strftime("%d %m %Y %H %M %S")
 print(current_str)
 
-
