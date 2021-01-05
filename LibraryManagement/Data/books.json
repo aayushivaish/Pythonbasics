@@ -6,6 +6,13 @@
             "author": "japan",
             "category_id": "0f98f88f-e8d0-4444-8fd6-66f4e4b96eb8",
             "is_available": true
+        },
+        {
+            "name": "Universe",
+            "year": "1600",
+            "author": "Newton",
+            "category_id": "dc55c3f6-8c29-4476-89ab-b3d3140389be",
+            "is_available": true
         }
     ]
 }

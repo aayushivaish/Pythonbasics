@@ -1,8 +1,12 @@
 {
     "categories": [
         {
-            "category_name": "Prakhar",
+            "category_name": "Knowledge",
             "id": "0f98f88f-e8d0-4444-8fd6-66f4e4b96eb8"
+        },
+        {
+            "category_name": "space",
+            "id": "dc55c3f6-8c29-4476-89ab-b3d3140389be"
         }
     ]
 }

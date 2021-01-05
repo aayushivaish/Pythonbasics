@@ -33,7 +33,7 @@ def write_book_json(data,filename=books_path):
 
 def if_categoryexist(category_name,data):
   for category in data["categories"]: 
-    if category['name']==category_name:
+    if category['category_name']==category_name:
       return True
   return False
 
