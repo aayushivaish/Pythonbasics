@@ -2,7 +2,7 @@ def pallindrome(n):
     loopVar = n
     rev = 0
     while(loopVar != 0):
-        last = loopVar % 10;
+        last = loopVar % 10
         rev = rev*10+last
         loopVar = loopVar // 10
     return rev,if_pallindrome(n,rev)

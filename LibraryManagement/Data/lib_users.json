@@ -1,0 +1,11 @@
+{
+    "users": [
+        {
+            "name": "aayushi",
+            "id": "e21abfee-5a7d-453b-a9b5-1ac33fd93521",
+            "email": "abs@gmail.com",
+            "password": "aayushi123",
+            "age": 23
+        }
+    ]
+}

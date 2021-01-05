@@ -1,0 +1,11 @@
+{
+    "books": [
+        {
+            "name": "ikigai",
+            "year": "1983",
+            "author": "japan",
+            "category_id": "0f98f88f-e8d0-4444-8fd6-66f4e4b96eb8",
+            "is_available": true
+        }
+    ]
+}
