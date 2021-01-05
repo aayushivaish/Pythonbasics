@@ -23,11 +23,14 @@ def select_return_book(user_id):
     for book in data["book_issue_data"]:
         if book["user"] == user_id and book["return_time"] == "N/A":
             user_books.append(book)
-    print("select book to return ")
-    for i in range(0,len(user_books)):
-        print("{}.{}".format(i+1,user_books[i]["book"]))
-    choice = int(input())
-    return user_books[choice-1]
+    if len(user_books) != 0:
+        print("select book to return ")
+        for i in range(0,len(user_books)):
+            print("{}.{}".format(i+1,user_books[i]["book"]))
+        choice = int(input())
+        return user_books[choice-1]
+    else:
+        return "N/A"
 
 def return_book(user_id,book_name):
     f = open(issue_path,'r+')

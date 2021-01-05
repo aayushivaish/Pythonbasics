@@ -6,6 +6,13 @@
             "book": "ikigai",
             "issue_time": "2021-01-05 00:43:04.462517",
             "return_time": "2021-01-06 00:28:18.697531"
+        },
+        {
+            "user": "b27e938b-fe74-4774-bb4a-a32f501a31e5",
+            "category_id": "dc55c3f6-8c29-4476-89ab-b3d3140389be",
+            "book": "Universe",
+            "issue_time": "2021-01-06 00:48:32.323390",
+            "return_time": "N/A"
         }
     ]
 }

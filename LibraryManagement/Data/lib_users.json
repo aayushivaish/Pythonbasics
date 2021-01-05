@@ -6,6 +6,13 @@
             "email": "abs@gmail.com",
             "password": "aayushi123",
             "age": 23
+        },
+        {
+            "name": "test",
+            "id": "b27e938b-fe74-4774-bb4a-a32f501a31e5",
+            "email": "test@gmail.com",
+            "password": "test",
+            "age": 38
         }
     ]
 }

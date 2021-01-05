@@ -41,18 +41,17 @@ def signup():
         print('signup successful')
 
 def login():
-     f = open(abs_path,'r+')
-     data = json.load(f) 
-     email = input("Enter your email ")
-     password = input("enter your password ")
-     for user in data['users']:
-         if user['email'] == email:
-             if user['password'] == password:
-                 print("LOGIN SUCCESSFUL")
-                 return True, user["id"]
-             else:
-                print("Wrong password")
-                return False
-         else:
-            print("user not found / please signup")
-            break
+  f = open(abs_path,'r+')
+  data = json.load(f) 
+  email = input("Enter your email ")
+  password = input("enter your password ")
+  for user in data['users']:
+    if user['email'] == email:
+      if user['password'] == password:
+        print("LOGIN SUCCESSFUL")
+        return True, user["id"]
+      else:
+        print("Wrong password")
+        return False, "N/A"
+  print("user not found / please signup")
+  exit()

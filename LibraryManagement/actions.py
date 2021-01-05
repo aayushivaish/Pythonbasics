@@ -19,7 +19,11 @@ def user_menu(user_id):
         return category_id,book_name, option
     elif option == 2:       
         book = select_return_book(user_id)
-        return book["category_id"],book["book"],option
+        if book != "N/A":
+            return book["category_id"],book["book"],option
+        else:
+            print("no books to return ")
+            exit()
 
 
 
