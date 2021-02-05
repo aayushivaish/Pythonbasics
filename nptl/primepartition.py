@@ -1,9 +1,14 @@
-# Online Python compiler (interpreter) to run Python online.
-# Write Python 3 code in this online editor and run it.
 def primepartition(m):
     prime_numbers = list_prime(m)
-    for i in range()
-    
+    for i in prime_numbers:
+        is_sum = False
+        for j in prime_numbers:
+            if i+j == m:
+                is_sum = True
+                return is_sum
+            if i+j > m:
+                break
+    return is_sum
     
     
     
@@ -19,10 +24,4 @@ def list_prime(m):
         if is_prime == True:
             prime_list.append(i)
     return prime_list
-
-
-
-
-
-                
                 
